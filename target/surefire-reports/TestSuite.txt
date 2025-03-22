@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 19.681 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestNGTestRunner.runScenario["Verify homepage and search functionality for luggage storage locations", "Luggage Storage Search Functionality"](1)  Time elapsed: 4.778 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.119)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5a083bb9d25a6a291b5b7feafaeac6c, get {url=https://luggagehero.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.119, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: /var/folders/ff/c3y6wx7n2qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50902/devtoo..., se:cdpVersion: 134.0.6998.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5a083bb9d25a6a291b5b7feafaeac6c
+
+cucumberOptions.TestNGTestRunner.runScenario["Verify homepage and search functionality for luggage storage locations", "Luggage Storage Search Functionality"](2)  Time elapsed: 6.288 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.119)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [611af9fa9d8aa89cbce9f901ce22d26d, get {url=https://luggagehero.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.119, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: /var/folders/ff/c3y6wx7n2qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50901/devtoo..., se:cdpVersion: 134.0.6998.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 611af9fa9d8aa89cbce9f901ce22d26d
+
+cucumberOptions.TestNGTestRunner.runScenario["Verify homepage and search functionality for luggage storage locations", "Luggage Storage Search Functionality"](4)  Time elapsed: 19.276 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.119)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c83931def2182addf05fc0f820413deb, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.119, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: /var/folders/ff/c3y6wx7n2qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50903}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50903/devtoo..., se:cdpVersion: 134.0.6998.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c83931def2182addf05fc0f820413deb
+
